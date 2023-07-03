@@ -13,19 +13,6 @@ In this repository, you will find two essential configuration files: `printer.cf
 - **Seamless Integration**: The provided `printer.cfg` file seamlessly integrates with the popular Mainsail interface, making it effortless for you to incorporate these configurations into your existing setup. Simply rename the file or copy and paste the contents into your own `printer.cfg` file via Mainsail.
 - **Simplified Customization**: Our configuration files are designed to be easily customizable, empowering you to tailor the settings to your specific requirements or modifications. Feel free to tweak and refine the configurations as needed to achieve the desired outcome.
 
-## Getting Started
-
-To embark on this journey of enhanced printing capabilities, follow these steps:
-
-1. Clone or download this repository to obtain the `printer.cfg` and `macros.cfg` files.
-2. If you are using Mainsail, copy and paste the contents of the `printer.cfg` file into your existing `printer.cfg` file.
-3. Alternatively, you can directly replace your current `printer.cfg` file with the provided one.
-4. Enjoy the benefits of Klipper firmware and witness the remarkable improvements in your printing endeavors.
-
-Feel free to explore the provided `macros.cfg` file, which contains pre-defined macros that can streamline your printing workflow and add convenience to your operations.
-
-We hope you find these configuration files invaluable in your quest for exceptional 3D printing results.
-
 
 ## This config uses KAMP
 
@@ -34,3 +21,16 @@ We hope you find these configuration files invaluable in your quest for exceptio
 KAMP is a project that was created by kyleisah to simplify the usage of adaptive meshing on Klipper-based 3D printers. Adaptive meshing is the practice of using values from a gcode file to define a mesh's dimensions. This gives you the benefits of using a bed mesh, but only specifically where it is needed, without passing a bunch of variables around. KAMP was designed with simplicity in mind! 
 
 Find out more about Kamp, https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging
+
+## Getting Started
+
+To embark on this journey of enhanced printing capabilities, follow these steps:
+
+1. Clone or download this repository to obtain the `printer.cfg`, `macros.cfg`, `Line_Purge.cfg`, and `Adaptive_Mesh.cfg` files.
+2. If you are using Mainsail, copy and paste the contents of the `printer.cfg` file into your existing `printer.cfg` file.
+3. Alternatively, you can directly replace your current `printer.cfg` file with the provided one.
+4. Enjoy the benefits of Klipper firmware and witness the remarkable improvements in your printing endeavors.
+
+Feel free to explore the provided `macros.cfg` file, which contains pre-defined macros that can streamline your printing workflow and add convenience to your operations.
+
+We hope you find these configuration files invaluable in your quest for exceptional 3D printing results.
