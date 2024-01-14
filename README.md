@@ -4,7 +4,7 @@ Welcome to the repository that houses meticulously crafted configuration files f
 
 ## Overview
 
-In this repository, you will find two essential configuration files: `printer.cfg` and `macros.cfg`. These files have been expertly tailored to optimize the performance of your modified Ender 3 V2 printer, enabling you to push the boundaries of print quality, accuracy, and speed.
+In this repository, you will find four essential configuration files: `printer.cfg`, `macros.cfg`, `Adaptive_Meshing.cfg`, `Line_Purge.cfg`. These files have been expertly tailored to optimize the performance of your modified Ender 3 V2 printer, enabling you to push the boundaries of print quality, accuracy, and speed.
 
 ## Features
 
@@ -26,7 +26,7 @@ Find out more about Kamp, https://github.com/kyleisah/Klipper-Adaptive-Meshing-P
 
 To embark on this journey of enhanced printing capabilities, follow these steps:
 
-1. Clone or download this repository to obtain the `printer.cfg`, `macros.cfg`, `Line_Purge.cfg`, and `Adaptive_Mesh.cfg` files.
+1. Clone or download this repository to obtain the `printer.cfg`, `macros.cfg`, `Line_Purge.cfg`, and `Adaptive_Meshing.cfg` files.
 2. If you are using Mainsail, copy and paste the contents of the `printer.cfg` file into your existing `printer.cfg` file.
 3. Alternatively, you can directly replace your current `printer.cfg` file with the provided one.
 4. Enjoy the benefits of Klipper firmware and witness the remarkable improvements in your printing endeavors.
