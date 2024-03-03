@@ -33,10 +33,19 @@ To embark on this journey of enhanced printing capabilities, follow these steps:
    `macros.cfg`, `Line_Purge.cfg`, and `Adaptive_Meshing.cfg`
 
   3. You will also need to ensure the following is defined in moonraker.conf:
-  [file_manager]
-  enable_object_processing: True
+      [file_manager]
+      enable_object_processing: True
 
-  4. Enjoy the benefits of Klipper firmware and witness the remarkable improvements in your printing endeavors.
+  4. Replace the slicer's custom start and end g-code scripts with:
+      Starting G-Code:
+        START_PRINT BED_TEMP={material_bed_temperature_layer_0} EXTRUDER_TEMP={material_print_temperature_layer_0} 
 
-Feel free to explore the provided `macros.cfg` file, which contains pre-defined macros that can streamline your printing workflow and add convenience to your operations
-We hope you find these configuration files invaluable in your quest for exceptional 3D printing results.
+      Ending G-Code:
+        END_PRINT
+
+    I use UltiMaker Cura for 3D printing. If you're interested, I also have some Cura slicing profiles available to help you get started. You can download Cura from this link: https://ultimaker.com/software/ultimaker-cura/#downloads.
+
+    Once you have Cura installed, you can find the starting and ending g-code in the machine settings. To access that menu, go to the main menu and select Settings > Printer > Manage Printers...
+
+  5. Enjoy the benefits of Klipper firmware and witness the remarkable improvements in your printing endeavors.
+
